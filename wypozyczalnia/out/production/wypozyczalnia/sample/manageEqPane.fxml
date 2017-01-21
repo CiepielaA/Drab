@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="sample.ManageEqController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+       <Button fx:id="addEqButton" layoutX="248.0" layoutY="97.0" text="Dodaj sprzęt" onAction="#addEqButtonClicked"  />
+      <Button fx:id="updateEqInfoButton" layoutX="186.0" layoutY="169.0" mnemonicParsing="false" text="Aktualizuj informacje o sprzęcie" onAction="#updateEqInfoButton"/>
+      <Button fx:id="deleteEqButton" layoutX="252.0" layoutY="244.0" mnemonicParsing="false" text="Usuń sprzęt" onAction="#deleteEqButton"/>
+    </children>
+</AnchorPane>
